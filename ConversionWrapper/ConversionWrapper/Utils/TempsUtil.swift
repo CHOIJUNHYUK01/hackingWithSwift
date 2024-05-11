@@ -15,10 +15,14 @@ func calculateTemps(value: String, from: String, to: String, sign: String) -> Do
     }
     
     if from == "Celsius" {
+        // let value = Measurement(value: adjustedValue, unit: UnitTemperature.celsius)
+        
         switch to {
         case "Fahreheit":
+            // return value.converted(to: .fahrenheit)
             return adjustedValue * 9 / 5 + 32
         case "Kelvin":
+            // return value.converted(to: .kelvin)
             return adjustedValue + 273.15
         default:
             return adjustedValue

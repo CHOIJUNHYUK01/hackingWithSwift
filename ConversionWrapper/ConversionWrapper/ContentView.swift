@@ -23,6 +23,9 @@ struct ContentView: View {
     let tempSignUnits = ["Positive", "Negative"]
     
     private var outputValue: Double {
+        // let heightFeet = Measurement(value: 6, unit: UnitLength.feet)
+        // let heightInches = heightFeet.converted(to: UnitLength.inches)
+        
         switch inputUnit {
         case "Length":
             return calculateLength(value: inputValue, from: inputDetailUnit, to: outputDetailUnit)
