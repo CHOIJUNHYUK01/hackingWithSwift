@@ -21,34 +21,37 @@ struct ContentView: View {
     var answer: Int {
         switch result {
         case 0:
+            // Win
             switch computer {
-            case 0:
+            case 0: // R
                 return 2
-            case 1:
+            case 1: // S
                 return 0
-            case 2:
+            case 2: // P
                 return 1
             default:
                 return 0
             }
         case 1:
+            // Draw
             switch computer {
-            case 0:
+            case 0: // R
                 return 0
-            case 1:
+            case 1: // S
                 return 1
-            case 2:
+            case 2: // P
                 return 2
             default:
                 return 0
             }
         case 2:
+            // Lose
             switch computer {
-            case 0:
+            case 0: // R
                 return 1
-            case 1:
+            case 1: // S
                 return 2
-            case 2:
+            case 2: // P
                 return 0
             default:
                 return 0
