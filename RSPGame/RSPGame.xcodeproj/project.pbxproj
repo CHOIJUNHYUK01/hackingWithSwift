@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		517747122BECC314003D30E9 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517747112BECC314003D30E9 /* WeSplitApp.swift */; };
-		517747142BECC314003D30E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517747132BECC314003D30E9 /* ContentView.swift */; };
-		517747162BECC315003D30E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517747152BECC315003D30E9 /* Assets.xcassets */; };
-		517747192BECC315003D30E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517747182BECC315003D30E9 /* Preview Assets.xcassets */; };
+		5136A4AB2BF76CF900DEAC17 /* RSPGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A4AA2BF76CF900DEAC17 /* RSPGameApp.swift */; };
+		5136A4AD2BF76CF900DEAC17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136A4AC2BF76CF900DEAC17 /* ContentView.swift */; };
+		5136A4AF2BF76CFA00DEAC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5136A4AE2BF76CFA00DEAC17 /* Assets.xcassets */; };
+		5136A4B22BF76CFA00DEAC17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5136A4B12BF76CFA00DEAC17 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5177470E2BECC314003D30E9 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		517747112BECC314003D30E9 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		517747132BECC314003D30E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		517747152BECC315003D30E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		517747182BECC315003D30E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5136A4A72BF76CF900DEAC17 /* RSPGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5136A4AA2BF76CF900DEAC17 /* RSPGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPGameApp.swift; sourceTree = "<group>"; };
+		5136A4AC2BF76CF900DEAC17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5136A4AE2BF76CFA00DEAC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5136A4B12BF76CFA00DEAC17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5177470B2BECC314003D30E9 /* Frameworks */ = {
+		5136A4A42BF76CF900DEAC17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		517747052BECC314003D30E9 = {
+		5136A49E2BF76CF900DEAC17 = {
 			isa = PBXGroup;
 			children = (
-				517747102BECC314003D30E9 /* WeSplit */,
-				5177470F2BECC314003D30E9 /* Products */,
+				5136A4A92BF76CF900DEAC17 /* RSPGame */,
+				5136A4A82BF76CF900DEAC17 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5177470F2BECC314003D30E9 /* Products */ = {
+		5136A4A82BF76CF900DEAC17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5177470E2BECC314003D30E9 /* WeSplit.app */,
+				5136A4A72BF76CF900DEAC17 /* RSPGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		517747102BECC314003D30E9 /* WeSplit */ = {
+		5136A4A92BF76CF900DEAC17 /* RSPGame */ = {
 			isa = PBXGroup;
 			children = (
-				517747112BECC314003D30E9 /* WeSplitApp.swift */,
-				517747132BECC314003D30E9 /* ContentView.swift */,
-				517747152BECC315003D30E9 /* Assets.xcassets */,
-				517747172BECC315003D30E9 /* Preview Content */,
+				5136A4AA2BF76CF900DEAC17 /* RSPGameApp.swift */,
+				5136A4AC2BF76CF900DEAC17 /* ContentView.swift */,
+				5136A4AE2BF76CFA00DEAC17 /* Assets.xcassets */,
+				5136A4B02BF76CFA00DEAC17 /* Preview Content */,
 			);
-			path = WeSplit;
+			path = RSPGame;
 			sourceTree = "<group>";
 		};
-		517747172BECC315003D30E9 /* Preview Content */ = {
+		5136A4B02BF76CFA00DEAC17 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				517747182BECC315003D30E9 /* Preview Assets.xcassets */,
+				5136A4B12BF76CFA00DEAC17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5177470D2BECC314003D30E9 /* WeSplit */ = {
+		5136A4A62BF76CF900DEAC17 /* RSPGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5177471C2BECC315003D30E9 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = 5136A4B52BF76CFA00DEAC17 /* Build configuration list for PBXNativeTarget "RSPGame" */;
 			buildPhases = (
-				5177470A2BECC314003D30E9 /* Sources */,
-				5177470B2BECC314003D30E9 /* Frameworks */,
-				5177470C2BECC314003D30E9 /* Resources */,
+				5136A4A32BF76CF900DEAC17 /* Sources */,
+				5136A4A42BF76CF900DEAC17 /* Frameworks */,
+				5136A4A52BF76CF900DEAC17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeSplit;
-			productName = WeSplit;
-			productReference = 5177470E2BECC314003D30E9 /* WeSplit.app */;
+			name = RSPGame;
+			productName = RSPGame;
+			productReference = 5136A4A72BF76CF900DEAC17 /* RSPGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		517747062BECC314003D30E9 /* Project object */ = {
+		5136A49F2BF76CF900DEAC17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					5177470D2BECC314003D30E9 = {
+					5136A4A62BF76CF900DEAC17 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 517747092BECC314003D30E9 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = 5136A4A22BF76CF900DEAC17 /* Build configuration list for PBXProject "RSPGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 517747052BECC314003D30E9;
-			productRefGroup = 5177470F2BECC314003D30E9 /* Products */;
+			mainGroup = 5136A49E2BF76CF900DEAC17;
+			productRefGroup = 5136A4A82BF76CF900DEAC17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5177470D2BECC314003D30E9 /* WeSplit */,
+				5136A4A62BF76CF900DEAC17 /* RSPGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5177470C2BECC314003D30E9 /* Resources */ = {
+		5136A4A52BF76CF900DEAC17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517747192BECC315003D30E9 /* Preview Assets.xcassets in Resources */,
-				517747162BECC315003D30E9 /* Assets.xcassets in Resources */,
+				5136A4B22BF76CFA00DEAC17 /* Preview Assets.xcassets in Resources */,
+				5136A4AF2BF76CFA00DEAC17 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5177470A2BECC314003D30E9 /* Sources */ = {
+		5136A4A32BF76CF900DEAC17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517747142BECC314003D30E9 /* ContentView.swift in Sources */,
-				517747122BECC314003D30E9 /* WeSplitApp.swift in Sources */,
+				5136A4AD2BF76CF900DEAC17 /* ContentView.swift in Sources */,
+				5136A4AB2BF76CF900DEAC17 /* RSPGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5177471A2BECC315003D30E9 /* Debug */ = {
+		5136A4B32BF76CFA00DEAC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		5177471B2BECC315003D30E9 /* Release */ = {
+		5136A4B42BF76CFA00DEAC17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,14 @@
 			};
 			name = Release;
 		};
-		5177471D2BECC315003D30E9 /* Debug */ = {
+		5136A4B62BF76CFA00DEAC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RSPGame/Preview Content\"";
 				DEVELOPMENT_TEAM = GM5WM2FSF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukechoi.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukechoi.RSPGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		5177471E2BECC315003D30E9 /* Release */ = {
+		5136A4B72BF76CFA00DEAC17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RSPGame/Preview Content\"";
 				DEVELOPMENT_TEAM = GM5WM2FSF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lukechoi.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukechoi.RSPGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		517747092BECC314003D30E9 /* Build configuration list for PBXProject "WeSplit" */ = {
+		5136A4A22BF76CF900DEAC17 /* Build configuration list for PBXProject "RSPGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5177471A2BECC315003D30E9 /* Debug */,
-				5177471B2BECC315003D30E9 /* Release */,
+				5136A4B32BF76CFA00DEAC17 /* Debug */,
+				5136A4B42BF76CFA00DEAC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5177471C2BECC315003D30E9 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		5136A4B52BF76CFA00DEAC17 /* Build configuration list for PBXNativeTarget "RSPGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5177471D2BECC315003D30E9 /* Debug */,
-				5177471E2BECC315003D30E9 /* Release */,
+				5136A4B62BF76CFA00DEAC17 /* Debug */,
+				5136A4B72BF76CFA00DEAC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 517747062BECC314003D30E9 /* Project object */;
+	rootObject = 5136A49F2BF76CF900DEAC17 /* Project object */;
 }
