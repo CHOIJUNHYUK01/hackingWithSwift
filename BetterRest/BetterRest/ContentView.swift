@@ -28,7 +28,9 @@ struct ContentView: View {
         NavigationStack {
             Form {
                 Section("Recommended Bedtime") {
-                    VStack {
+                    HStack {
+                        Text("Your Bedtime")
+                        Spacer()
                         Text("\(calculateBedtime())")
                             .font(.largeTitle.bold())
                     }
@@ -36,7 +38,6 @@ struct ContentView: View {
                 
                 Section("When do you want to wake up?") {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                        .labelsHidden()
                 }
                 
                 Section("Desired amount of sleep") {
@@ -44,7 +45,13 @@ struct ContentView: View {
                 }
                 
                 Section("Daily coffee intake") {
-                    Stepper(coffeeAmount <= 1 ? "\(coffeeAmount) cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 0...20)
+                    // Stepper(coffeeAmount <= 1 ? "\(coffeeAmount) cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 0...20)
+                    
+                    Picker("Coffee amount", selection: $coffeeAmount) {
+                        ForEach(0..<21) {
+                            Text($0 <= 1 ? "\($0) cup" : "\($0) cups")
+                        }
+                    }
                 }
             }
             .navigationTitle("BetterRest")

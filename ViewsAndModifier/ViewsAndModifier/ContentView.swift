@@ -63,15 +63,20 @@ struct ContentView: View {
         Button("Click") {
             print(type(of: self.body))
         }
-        VStack {
-            Text("Title Style")
-                .newTextStyle()
-//                .titleStyle()
-            
-            Color.blue
-                .frame(width: 300, height: 300)
-                .watermarked(with: "This is the Watermark")
+        .foregroundStyle(.red)
+        Button("Click") {
+            print(type(of: self.body))
         }
+        .foregroundStyle(.red)
+//        VStack {
+//            Text("Title Style")
+//                .newTextStyle()
+////                .titleStyle()
+//            
+//            Color.blue
+//                .frame(width: 300, height: 300)
+//                .watermarked(with: "This is the Watermark")
+//        }
     }
 }
 
