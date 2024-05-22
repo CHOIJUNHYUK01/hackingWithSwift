@@ -2,6 +2,10 @@
 
 <img src="https://github.com/CHOIJUNHYUK01/hackingWithSwift/assets/114978803/8b98e9e9-9c9a-4e40-8d51-8bfcf54404d5" width="400" />
 
+## 애니메이션 적용 업데이트
+
+https://github.com/CHOIJUNHYUK01/hackingWithSwift/assets/114978803/45932928-1360-4fb6-9a12-7393cc6bb84d
+
 나라 국기 맞추기 게임입니다.
 
 ## 사용 기술
@@ -52,3 +56,9 @@ SwiftUI
 
    타이틀과 콘텐츠 바디의 문구, 버튼까지 모두 설정할 수 있다.
    해당 Alert가 뜨기 위해 PresentProperty 또한 양방향 바인딩 속성을 적용하면 된다.
+
+4. Animation
+
+   modifier 순서에도 영향을 받는다.
+   여러 개의 animation modifier를 추가할 수도 있다.
+   withAnimation을 이용해 transition 값이 있는 요소에 애니메이션을 함수에 추가할 수 있다.
