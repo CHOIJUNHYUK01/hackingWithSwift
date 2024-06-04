@@ -2,7 +2,7 @@
 
 ## 프로젝트
 
-|프로젝트 이름|스크린샷|핵심기능|
+|프로젝트 이름|스크린샷|핵심 기능 및 배운 기능|
 |---|---|---|
 |[WeSplit](https://github.com/CHOIJUNHYUK01/hackingWithSwift/blob/main/WeSplit/README.md)|<img src="https://github.com/CHOIJUNHYUK01/hackingWithSwift/assets/114978803/1ce1dd09-2cb2-4ff7-88b1-d0593cba0099" width="400" />|다양한 PickerView|
 |[ConversionWrapper](https://github.com/CHOIJUNHYUK01/hackingWithSwift/blob/main/ConversionWrapper/README.md)|<img src="https://github.com/CHOIJUNHYUK01/hackingWithSwift/assets/114978803/9df8e820-5781-4135-928a-8836a2c41a47" width="400" />|단위 계산, TextField 값 활용|
