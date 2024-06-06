@@ -83,15 +83,18 @@ struct ContentView: View {
                 
             }
             .listStyle(.plain)
-            .navigationTitle("Expenses")
+            .navigationTitle($select)
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                Button("Add Expense", systemImage: "plus") {
-                    showingAddExpense = true
+                ToolbarItem {
+                    NavigationLink {
+                        AddView(expenses: expenses)
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+
                 }
             }
-            .sheet(isPresented: $showingAddExpense, content: {
-                AddView(expenses: expenses)
-            })
         }
     }
     

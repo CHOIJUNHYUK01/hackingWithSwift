@@ -33,6 +33,12 @@ struct ContentView: View {
                 Toggle(showGrid ? "Grid" : "List", isOn: $showGrid)
                     .toggleStyle(.switch)
             })
+            .navigationDestination(for: Astronaut.self) { crew in
+                AstronautView(astronaut: crew)
+            }
+            .navigationDestination(for: Mission.self) { mission in
+                MissionView(mission: mission, astronauts: astronauts)
+            }
         }
     }
 }
